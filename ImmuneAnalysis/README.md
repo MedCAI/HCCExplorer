@@ -20,7 +20,7 @@ This workflow integrates virtual multiplex immunofluorescence (mIF) generation, 
 ### Source Code: Visualization & Attention Analysis
 * **`step1_save_mif_pseudocolor.py`**: Generates high-resolution heatmaps and pseudocolor images of the virtual mIF signals.
 * **`step2_make_celltype_thumbnail.py`**: Creates visual thumbnails for specific cell types to verify classification.
-* **`step3_tumor_mask.py`**: Applies masks to filter valid tissue regions from background/noise.
+* **`step3_tumor_mask.py`**: Extracts the tumor center (TC) / invasive frontier (IF) / adjacent stroma (AS) regions using the annotations (if provided).
 * **`step4_copy_attention.py`**: Extracts and maps attention weights from the HCCExplorer Graph Transformer to specific tissue patches.
 
 ### Data
@@ -80,7 +80,7 @@ Ensure you have the necessary Python environment set up. Key dependencies likely
     *This script sequentially executes steps 1 through 4 (pseudocolor generation -> thumbnails -> masking -> attention mapping).*
 
 3.  **Data Analysis:**
-    Open `Tutorial.ipynb` to view the downstream analysis, including correlation plots and survival analysis integration.
+    Open ★ `Tutorial.ipynb` ★ to view the downstream analysis, including correlation plots and survival analysis integration.
 
 ---
 
@@ -92,4 +92,5 @@ The pipeline outputs quantitative tables (CSV) and visual maps:
 * **Deconvolution Results:** `ImmuneAnalysis:CIBERSORTx_Job1_Results.csv` contains the estimated cell-type fractions for the analyzed cohort.
 
 ---
+
 *For questions or issues, please open a GitHub Issue.*
