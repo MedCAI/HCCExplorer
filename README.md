@@ -1,4 +1,4 @@
-# HCCExplorer: Transforming Histology into Virtual Multiplex Immunofluorescence
+# HCCExplorer: Transforming Histology into Virtual Multiplex Immunofluorescence to Decode Tumor Immune Microenvironment in Hepatocellular Carcinoma
 
 [![License](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
