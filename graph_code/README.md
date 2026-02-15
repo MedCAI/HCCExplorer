@@ -1,4 +1,4 @@
-# 🧬 Hccexplorer: Multi-modal Graph Learning
+# 🧬 HCCExplorer: Multi-modal graph learning for HCC biomarker discovery
 
 This repository implements a supernode-based graph learning pipeline for histological image analysis. It includes modules for graph construction, feature aggregation, and deep learning model training.
 
