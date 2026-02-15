@@ -44,17 +44,24 @@ CellFilter/
 It is recommended to use Anaconda or Miniconda to manage dependencies.
 
 1. Create Environment
-Bash
+```
 conda create -n cellfilter python=3.8
 conda activate cellfilter
+```
+
 2. Install General Dependencies
-Bash
+```
 pip install numpy matplotlib opencv-python scikit-image pandas docopt termcolor
+```
+
 3. Install HoVer-Net Dependencies (for H&E)
 This repository uses a PyTorch implementation of HoVer-Net.
 
 # Install PyTorch
+```
 pip install torch torchvision # Check [https://pytorch.org/](https://pytorch.org/) for your specific CUDA version
+```
+
 Weight Conversion (Optional):
 If you have original HoVer-Net weights in TensorFlow format, use the provided converter:
 
@@ -63,40 +70,44 @@ python convert_chkpt_tf2pytorch.py --help
 StarDist is required for fluorescence image segmentation.
 
 # Install StarDist and CSBDeep
+```
 pip install stardist csbdeep
-Note: If you encounter GPU issues with StarDist, please refer to the official StarDist installation guide.
+```
+Note: If you encounter GPU issues with StarDist, please refer to the official [StarDist](https://github.com/stardist/stardist) installation guide.
 
 🚀 Usage
 1. H&E Cell Extraction (HoVer-Net)
 To extract masks from H&E images, use run_infer.py.
 
 Standard Inference:
-
+```
 python run_infer.py \
     --gpu='0' \
     --input_dir='data/he_images/' \
     --output_dir='output/hovernet_pred/' \
     --model_path='models/hovernet_weights.pth' \
     --model_mode='fast'
+```
 Whole Slide Image (WSI) Processing:
 For processing large .svs or .tif files, utilize the shell script:
 
 bash run_wsi.sh
 2. mIF/DAPI Nuclei Extraction (StarDist)
 To extract masks from DAPI channels or fluorescence images, use fluo_seg.py.
-
+```
 python fluo_seg.py
-
+```
 2D_versatile_fluo is the default pretrained model provided by StarDist, which performs exceptionally well on DAPI nuclei.*
 
 3. Preprocessing (Patch Extraction)
 If your images are too large for direct inference, you can tile them first:
-
+```
 python extract_patches.py \
     --input_dir 'raw_data/' \
     --output_dir 'data/patches/' \
     --patch_size 1024 \
     --step_size 1024
+```
 ⚙️ Configuration
 config.py: Global configuration for training parameters and model paths.
 
