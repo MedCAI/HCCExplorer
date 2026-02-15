@@ -28,7 +28,7 @@ C3UT/
 ├── turing_test_app.py        # Evaluation: Visual Turing Test App
 ├── run_pipeline.sh           # Shell script for end-to-end execution
 ├── requirements.txt          # Python dependencies
-└── c3ut_tutorial.ipynb       # Jupyter Notebook tutorial
+└── c3ut_tutorial.ipynb       # ★ Jupyter Notebook tutorial ★ 
 ```
 
 ## 🚀 Getting Started
