@@ -65,7 +65,7 @@ HCCExplorer/
     └── Tutorial             # Image registration workflows
 ```
 
-> **Note**: Each module contains a dedicated `Tutorial/` folder with detailed documentation, usage examples, and step-by-step instructions.
+> **Note**: Each module contains a dedicated `Tutorial` notebook with detailed documentation, usage examples, and step-by-step instructions.
 
 
 
