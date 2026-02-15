@@ -164,7 +164,8 @@ For questions about the code or model access:
 Thanks to the following work for improving our project：
 - MADELEINE (contrastive learning): https://github.com/mahmoodlab/MADELEINE
 - Trident (data pre-processing): https://github.com/mahmoodlab/TRIDENT
-- HoverNet (cell segmentation): https://github.com/vqdang/hover_net
+- HoverNet (H&E cell segmentation): https://github.com/vqdang/hover_net
+- StarDist (mIF cell segmentation): https://github.com/stardist/stardist
 - VALIS (WSI registration): https://github.com/MathOnco/valis
 - TEA-Graph (graph learning): https://github.com/taliq/TEA-graph
 - CUT (H&E-to-mIF translation): https://github.com/taesungp/contrastive-unpaired-translation/
