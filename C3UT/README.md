@@ -131,9 +131,11 @@ jupyter notebook c3ut_tutorial.ipynb
 ```
 
 ## 🤝 Contributing
-
-Please ensure all tests pass before submitting a pull request.
-
+Thanks to the following work for improving our project：
+- CLAM: [https://github.com/mahmoodlab/CLAM](https://github.com/mahmoodlab/CLAM)
+- CUT: [https://github.com/taesungp/contrastive-unpaired-translation/](https://github.com/taesungp/contrastive-unpaired-translation/)
+- Trident: [https://github.com/mahmoodlab/TRIDENT](https://github.com/mahmoodlab/TRIDENT)
+- 
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE&authuser=2) file for details.
