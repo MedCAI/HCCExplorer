@@ -127,7 +127,7 @@ HCCExplorer enabled discovery of:
 
 ```bash
 # Clone repository
-git clone https://github.com/MedCAI/HCC.git
+git clone https://github.com/MedCAI/HCCExplorer.git
 cd HCC
 
 # Install dependencies in each directory
@@ -157,7 +157,7 @@ If you use HCCExplorer in your research, please cite:
 
 For questions about the code or model access:
 
-- **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCC/issues)
+- **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCCExplorer/issues)
 - **Email**: cailh@stu.hit.edu.cn
 
 
