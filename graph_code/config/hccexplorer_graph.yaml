@@ -1,0 +1,29 @@
+Model:
+    name: hccexplorer_graph
+    n_classes: 4
+    input_dim: 1536
+    task: survival
+    dropout: 0.15
+    hidden_channels: 512
+    preprocess_flag: False   # True or False for preprocess
+    another_channels: 512
+
+Optimizer:
+    opt: adam
+    lr: 0.0005
+    opt_eps: null # eps in parameter
+    opt_betas: !!python/tuple [0.9, 0.999] # beta in parameter
+    momentum: null # momentum in parameter
+    weight_decay: 10.e-5 # weight decay in parameter
+
+Data:
+    feature_kind: UNI2 # uni_v1 or conch_v1 or resnet50
+    csv_path: FAZJU.csv
+    data_dir: result_graph_construction/
+    save_dir: results/
+    multi_hcc: True
+    root_hcc: result_graph_construction/
+    split_dir: splits/
+
+Lr_scheduler:
+    _if: True
