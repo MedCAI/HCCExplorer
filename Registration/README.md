@@ -1,4 +1,4 @@
-# HCCExplorer: H&E-mIF registration for training
+# 💈HCCExplorer: H&E-mIF registration for training
 
 This module handles the registration of Whole Slide Images (WSIs), specifically focusing on aligning H&E (Hematoxylin and Eosin) slides with Multiplex Immunofluorescence (mIF) scans. 
 
@@ -42,3 +42,4 @@ This registration pipeline is built upon the **VALIS** library. If you use this 
 > **VALIS: Virtual alignment of pathology image series for multi-gigapixel whole slide images** > Chandler D. Gatenbee, Alexander R. A. Anderson, et al.  
 
 > *GitHub Repository:* [https://github.com/MathOnco/valis](https://github.com/MathOnco/valis)
+
