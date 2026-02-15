@@ -51,18 +51,18 @@ HCCExplorer addresses critical limitations in routine hepatopathology by:
 
 ```text
 HCCExplorer/
-├── C3UT/                      # Virtual mIF translation (Cell-Consistent Cross-modal Unpaired Translation)
-│   └── Tutorial/             # Step-by-step guide for H&E-to-mIF generation
-├── CellFilter/               # Cell segmentation and quality control
-│   └── Tutorial/             # Data preprocessing and cell filtering protocols
-├── CoOptimization/           # H&E-virtual mIF feature co-optimization
-│   └── Tutorial/             # Multi-modal contrastive learning pipeline
-├── GraphLearning/            # Graph-based survival analysis
-│   └── Tutorial/             # Graph construction and survival prediction
-├── ImmuneAnalysis/           # Spatial immune feature extraction
-│   └── Tutorial/             # Immune profiling and biomarker validation
-└── Registration/             # WSI registration and spatial alignment
-└── Tutorial/             # Image registration workflows
+├── C3UT/                    # Virtual mIF translation (Cell-Consistent Cross-modal Unpaired Translation)
+│   └── Tutorial             # Step-by-step guide for H&E-to-mIF generation
+├── CellFilter               # Cell segmentation and quality control
+│   └── Tutorial             # Data preprocessing and cell filtering protocols
+├── CoOptimization/          # H&E-virtual mIF feature co-optimization
+│   └── Tutorial             # Multi-modal contrastive learning pipeline
+├── GraphLearning/           # Graph-based survival analysis
+│   └── Tutorial             # Graph construction and survival prediction
+├── ImmuneAnalysis/          # Spatial immune feature extraction
+│   └── Tutorial             # Immune profiling and biomarker validation
+└── Registration/            # WSI registration and spatial alignment
+└── Tutorial                 # Image registration workflows
 ```
 
 > **Note**: Each module contains a dedicated `Tutorial/` folder with detailed documentation, usage examples, and step-by-step instructions.
