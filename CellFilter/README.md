@@ -53,8 +53,8 @@ pip install numpy matplotlib opencv-python scikit-image pandas docopt termcolor
 3. Install HoVer-Net Dependencies (for H&E)
 This repository uses a PyTorch implementation of HoVer-Net.
 
-# Install PyTorch (Check [https://pytorch.org/](https://pytorch.org/) for your specific CUDA version)
-pip install torch torchvision
+# Install PyTorch
+pip install torch torchvision # Check [https://pytorch.org/](https://pytorch.org/) for your specific CUDA version
 Weight Conversion (Optional):
 If you have original HoVer-Net weights in TensorFlow format, use the provided converter:
 
