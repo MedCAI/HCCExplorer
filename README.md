@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-This repository contains the official implementation of **HCCExplorer**, a deep learning framework that transforms standard H&E slides into virtual multiplex immunofluorescence (mIF) images and performs spatially resolved survival analysis for hepatocellular carcinoma (HCC).
+This repository contains the official implementation of **HCCExplorer**, a deep learning framework that transforms standard H&E slides into virtual multiplex immunofluorescence (mIF) images and performs spatially resolved survival analysis for hepatocellular carcinoma (HCC). ** Specific tutorials are in directories.**
 
 ## 🔬 Overview
 
