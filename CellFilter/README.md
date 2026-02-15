@@ -1,4 +1,4 @@
-# CellFilter: Cell Segmentation & Extraction Toolkit
+# 🔬 HCCExplorer CellFilter: Cell Segmentation & Extraction Toolkit
 
 ![Demo](seg.gif)
 
