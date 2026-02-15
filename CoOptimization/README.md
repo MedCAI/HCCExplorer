@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## 🚀 Workflow
 
 ### 1. Feature Extraction
-In HCCExplorer, we used [UNI-h2](https://github.com/mahmoodlab/uni) for basic feature extraction.
+In HCCExplorer, we used [UNI-h2](https://github.com/mahmoodlab/uni) and [Trident](https://github.com/mahmoodlab/TRIDENT) for basic feature extraction.
 
 ### 2. Model Training
 ```bash
