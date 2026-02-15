@@ -22,12 +22,12 @@ This repository contains the official implementation of **HCCExplorer**, a deep 
 
 | Module             | Description                                                  | Status      |
 | ------------------ | ------------------------------------------------------------ | ----------- |
-| **C3UT**           | Cell-Consistent Cross-modal Unpaired Translation for H&E-to-virtual mIF generation | ✅ Available |
-| **CellFilter**     | Quality control pipeline for H&E and mIF cell segmentation   | ✅ Available |
-| **CoOptimization** | Multi-modal contrastive learning for H&E-virtual mIF feature alignment | ✅ Available |
-| **GraphLearning**  | Graph-based contextual survival prediction with interpretable attention | ✅ Available |
-| **ImmuneAnalysis** | Spatial immune feature extraction and prognostic biomarker discovery | ✅ Available |
-| **Registration**   | Whole-slide image registration and patch alignment           | ✅ Available |
+| **C3UT**           | Cell-Consistent Cross-modal Unpaired Translation for H&E-to-virtual mIF generation | ✅ |
+| **CellFilter**     | Quality control pipeline for H&E and mIF cell segmentation   | ✅ |
+| **CoOptimization** | Multi-modal contrastive learning for H&E-virtual mIF feature alignment | ✅ |
+| **GraphLearning**  | Graph-based contextual survival prediction with interpretable attention | ✅ |
+| **ImmuneAnalysis** | Spatial immune feature extraction and prognostic biomarker discovery | ✅ |
+| **Registration**   | Whole-slide image registration and patch alignment           | ✅ |
 
 
 
