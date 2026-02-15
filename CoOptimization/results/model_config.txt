@@ -1,0 +1,79 @@
+DataParallel(
+  (module): MADELEINE(
+    (embedding): Embedding(7, 32)
+    (token_projector): Linear(in_features=2048, out_features=128, bias=True)
+    (wsi_embedders): ABMILEmbedder(
+      (pre_attn): Sequential(
+        (0): Linear(in_features=1568, out_features=512, bias=True)
+        (1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (2): GELU(approximate='none')
+        (3): Dropout(p=0.1, inplace=False)
+        (4): Linear(in_features=512, out_features=512, bias=True)
+        (5): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (6): GELU(approximate='none')
+        (7): Dropout(p=0.1, inplace=False)
+        (8): Linear(in_features=512, out_features=2048, bias=True)
+        (9): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (10): GELU(approximate='none')
+        (11): Dropout(p=0.1, inplace=False)
+      )
+      (attn): ModuleList(
+        (0): BatchedABMIL(
+          (attention_a): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Tanh()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_b): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Sigmoid()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_c): Linear(in_features=512, out_features=1, bias=True)
+        )
+        (1): BatchedABMIL(
+          (attention_a): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Tanh()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_b): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Sigmoid()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_c): Linear(in_features=512, out_features=1, bias=True)
+        )
+        (2): BatchedABMIL(
+          (attention_a): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Tanh()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_b): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Sigmoid()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_c): Linear(in_features=512, out_features=1, bias=True)
+        )
+        (3): BatchedABMIL(
+          (attention_a): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Tanh()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_b): Sequential(
+            (0): Linear(in_features=512, out_features=512, bias=True)
+            (1): Sigmoid()
+            (2): Dropout(p=0.25, inplace=False)
+          )
+          (attention_c): Linear(in_features=512, out_features=1, bias=True)
+        )
+      )
+    )
+    (projector): Linear(in_features=2048, out_features=512, bias=True)
+  )
+)
+Total number of parameters: 5537636 
+Total number of trainable parameters: 5537636 
