@@ -1,4 +1,4 @@
-# Hccexplorer: H&E-Virtual mIF Contrastive Learning
+# 🖌️ Hccexplorer: H&E-Virtual mIF Contrastive Learning
 
 This repository implements a multi-modal contrastive learning framework designed to fuse morphological information from H&E images with molecular insights from virtual mIF data.
 
