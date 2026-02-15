@@ -151,7 +151,7 @@ If you use HCCExplorer in your research, please cite:
 }
 ```
 
-------
+
 
 ## 📧 Contact
 
@@ -160,7 +160,7 @@ For questions about the code or model access:
 - **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCC/issues)
 - **Email**: cailh@stu.hit.edu.cn
 
-------
+
 
 ## 📜 License
 
