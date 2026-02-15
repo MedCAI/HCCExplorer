@@ -94,7 +94,7 @@ python tiff2pyramid.py --input_dir ./results/slides
 
 ### 4. Automated Pipeline
 
-Run the full workflow (Preprocess -> Train -> Test) using the provided shell script:
+Run the full inference workflow (Preprocess -> Inference --> Post-Processing) using the provided shell script:
 
 ```
 bash run_pipeline.sh
