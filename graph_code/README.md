@@ -46,3 +46,4 @@ bash scripts/train.sh
 Thanks to the following work for improving our project：
 - UNI: [https://github.com/mahmoodlab/uni](https://github.com/mahmoodlab/uni)
 - TEA-Graph: [https://github.com/taliq/TEA-graph](https://github.com/taliq/TEA-graph)
+- Pytorch_Geometric: [http://github.com/pyg-team/pytorch_geometric](http://github.com/pyg-team/pytorch_geometric)
