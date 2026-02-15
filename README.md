@@ -152,16 +152,25 @@ If you use HCCExplorer in your research, please cite:
 ```
 
 
-
 ## 📧 Contact
 
 For questions about the code or model access:
 
 - **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCCExplorer/issues)
-- **Email**: cailh@stu.hit.edu.cn
+- **Email**: [Linghan Cai](cailh@stu.hit.edu.cn); [Songhan Jiang](jsh1299033562@163.com); [Fengchun Liu](2481857079@qq.com)
 
 
+## 🤝 Contributing
+Thanks to the following work for improving our project：
+- MADELEINE (contrastive learning): https://github.com/mahmoodlab/MADELEINE
+- Trident (data pre-processing): https://github.com/mahmoodlab/TRIDENT
+- HoverNet (cell segmentation): https://github.com/vqdang/hover_net
+- VALIS (WSI registration): https://github.com/MathOnco/valis
+- TEA-Graph (graph learning): https://github.com/taliq/TEA-graph
+- CUT (H&E-to-mIF translation): https://github.com/taesungp/contrastive-unpaired-translation/
+- TissueLab (code style): https://github.com/zhihuanglab/Tissuelab-Model-Zoo/tree/main
 
 ## 📜 License
 
 This code is made available for **academic research purposes only**. Commercial use requires explicit permission from the authors.
+
