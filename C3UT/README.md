@@ -119,12 +119,27 @@ We provide tools for both quantitative and qualitative evaluation.
 - **Visual Turing Test:** Launch the interactive app to evaluate the realism of generated images with pathologists.
 
   ```
-  python turing_test_app.py
+  streamlit run turing_test_app.py
   ```
+*Note: You need to install streamlit library and prepare your data in the following format:*
+```text
+doctor_evaluation/
+├── datasets/             # Data storage (Real H&E, Real mIF, and Fake mIF patches)
+├── ├── CD3               # CD3 marker dir
+├── ├── ├── fake          # fake mIF and real H&E pairs
+├── ├── ├── real          # real mIF and real H&E pairs
+├── ├── CD4               # CD4 marker dir
+├── ├── ├── fake          # fake mIF and real H&E pairs
+├── ├── ├── real          # real mIF and real H&E pairs
+├── ├── CD19
+├── ├── ...
+├── results/              # Evaluation results
+├── turing_test_app.py/   # turing test web app
+```
 
 ## 📖 Tutorial
 
-For a detailed walkthrough, run the Jupyter Notebook:
+For a detailed walkthrough, including inference samples, translation evaluation, turing test, run the Jupyter Notebook:
 
 ```
 jupyter notebook c3ut_tutorial.ipynb
