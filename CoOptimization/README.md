@@ -1,4 +1,4 @@
-# Hccexplorer: H&E-Virtual mIF Contrastive Learning
+# 🖌️ Hccexplorer: H&E-Virtual mIF Contrastive Learning
 
 This repository implements a multi-modal contrastive learning framework designed to fuse morphological information from H&E images with molecular insights from virtual mIF data.
 
@@ -13,13 +13,16 @@ pip install -r requirements.txt
 
 ## 🚀 Workflow
 
-### 1. Model Training
+### 1. Feature Extraction
+In HCCExplorer, we used [UNI-h2](https://github.com/mahmoodlab/uni) and [Trident](https://github.com/mahmoodlab/TRIDENT) for basic feature extraction.
+
+### 2. Model Training
 ```bash
 # Run the training pipeline
 bash launch_pretrain_withStainEncodings_256.sh
 ```
 
-### 2. Model Inference 
+### 3. Model Inference 
 ```bash
 # Run the training pipeline
 bash launch_inference_withStainEncodings.sh

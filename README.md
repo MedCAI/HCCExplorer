@@ -1,9 +1,9 @@
-# HCCExplorer: Transforming Histology into Virtual Multiplex Immunofluorescence
+# HCCExplorer: Transforming Histology into Virtual Multiplex Immunofluorescence to Decode Tumor Immune Microenvironment in Hepatocellular Carcinoma
 
 [![License](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-This repository contains the official implementation of **HCCExplorer**, a deep learning framework that transforms standard H&E slides into virtual multiplex immunofluorescence (mIF) images and performs spatially resolved survival analysis for hepatocellular carcinoma (HCC).
+This repository contains the official implementation of **HCCExplorer**, a deep learning framework that transforms standard H&E slides into virtual multiplex immunofluorescence (mIF) images and performs spatially resolved survival analysis for hepatocellular carcinoma (HCC). **Specific tutorials are in directories.**
 
 ## 🔬 Overview
 
@@ -22,12 +22,12 @@ This repository contains the official implementation of **HCCExplorer**, a deep 
 
 | Module             | Description                                                  | Status      |
 | ------------------ | ------------------------------------------------------------ | ----------- |
-| **C3UT**           | Cell-Consistent Cross-modal Unpaired Translation for H&E-to-virtual mIF generation | ✅ Available |
-| **CellFilter**     | Quality control pipeline for H&E and mIF cell segmentation   | ✅ Available |
-| **CoOptimization** | Multi-modal contrastive learning for H&E-virtual mIF feature alignment | ✅ Available |
-| **GraphLearning**  | Graph-based contextual survival prediction with interpretable attention | ✅ Available |
-| **ImmuneAnalysis** | Spatial immune feature extraction and prognostic biomarker discovery | ✅ Available |
-| **Registration**   | Whole-slide image registration and patch alignment           | ✅ Available |
+| **C3UT**           | Cell-Consistent Cross-modal Unpaired Translation for H&E-to-virtual mIF generation | ✅ |
+| **CellFilter**     | Quality control pipeline for H&E and mIF cell segmentation   | ✅ |
+| **CoOptimization** | Multi-modal contrastive learning for H&E-virtual mIF feature alignment | ✅ |
+| **GraphLearning**  | Graph-based contextual survival prediction with interpretable attention | ✅ |
+| **ImmuneAnalysis** | Spatial immune feature extraction and prognostic biomarker discovery | ✅ |
+| **Registration**   | Whole-slide image registration and patch alignment           | ✅ |
 
 
 
@@ -51,21 +51,21 @@ HCCExplorer addresses critical limitations in routine hepatopathology by:
 
 ```text
 HCCExplorer/
-├── C3UT/                      # Virtual mIF translation (Cell-Consistent Cross-modal Unpaired Translation)
-│   └── Tutorial/             # Step-by-step guide for H&E-to-mIF generation
-├── CellFilter/               # Cell segmentation and quality control
-│   └── Tutorial/             # Data preprocessing and cell filtering protocols
-├── CoOptimization/           # H&E-virtual mIF feature co-optimization
-│   └── Tutorial/             # Multi-modal contrastive learning pipeline
-├── GraphLearning/            # Graph-based survival analysis
-│   └── Tutorial/             # Graph construction and survival prediction
-├── ImmuneAnalysis/           # Spatial immune feature extraction
-│   └── Tutorial/             # Immune profiling and biomarker validation
-└── Registration/             # WSI registration and spatial alignment
-└── Tutorial/             # Image registration workflows
+├── C3UT/                    # Virtual mIF translation (Cell-Consistent Cross-modal Unpaired Translation)
+    └── Tutorial             # Step-by-step guide for H&E-to-mIF generation
+├── CellFilter               # Cell segmentation and quality control
+    └── Tutorial             # Data preprocessing and cell filtering protocols
+├── CoOptimization/          # H&E-virtual mIF feature co-optimization
+    └── Tutorial             # Multi-modal contrastive learning pipeline
+├── GraphLearning/           # Graph-based survival analysis
+    └── Tutorial             # Graph construction and survival prediction
+├── ImmuneAnalysis/          # Spatial immune feature extraction
+    └── Tutorial             # Immune profiling and biomarker validation
+└── Registration/            # WSI registration and spatial alignment
+    └── Tutorial             # Image registration workflows
 ```
 
-> **Note**: Each module contains a dedicated `Tutorial/` folder with detailed documentation, usage examples, and step-by-step instructions.
+> **Note**: Each module contains a dedicated `Tutorial` notebook with detailed documentation, usage examples, and step-by-step instructions.
 
 
 
@@ -127,8 +127,8 @@ HCCExplorer enabled discovery of:
 
 ```bash
 # Clone repository
-git clone https://github.com/MedCAI/HCC.git
-cd HCC
+git clone https://github.com/MedCAI/HCCExplorer.git
+cd HCCExplorer
 
 # Install dependencies in each directory
 pip install -r requirements.txt
@@ -152,16 +152,26 @@ If you use HCCExplorer in your research, please cite:
 ```
 
 
-
 ## 📧 Contact
 
 For questions about the code or model access:
 
-- **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCC/issues)
-- **Email**: cailh@stu.hit.edu.cn
+- **Issues**: Please use [GitHub Issues](https://github.com/MedCAI/HCCExplorer/issues)
+- **Email**: [Linghan Cai](cailh@stu.hit.edu.cn); [Songhan Jiang](jsh1299033562@163.com); [Fengchun Liu](2481857079@qq.com)
 
 
+## 🤝 Contributing
+Thanks to the following work for improving our project：
+- MADELEINE (contrastive learning): https://github.com/mahmoodlab/MADELEINE
+- Trident (data pre-processing): https://github.com/mahmoodlab/TRIDENT
+- HoverNet (H&E cell segmentation): https://github.com/vqdang/hover_net
+- StarDist (mIF cell segmentation): https://github.com/stardist/stardist
+- VALIS (WSI registration): https://github.com/MathOnco/valis
+- TEA-Graph (graph learning): https://github.com/taliq/TEA-graph
+- CUT (H&E-to-mIF translation): https://github.com/taesungp/contrastive-unpaired-translation/
+- TissueLab (code style): https://github.com/zhihuanglab/Tissuelab-Model-Zoo/tree/main
 
 ## 📜 License
 
 This code is made available for **academic research purposes only**. Commercial use requires explicit permission from the authors.
+

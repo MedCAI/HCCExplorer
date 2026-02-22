@@ -114,6 +114,6 @@ config.py: Global configuration for training parameters and model paths.
 type_info.json: JSON file mapping integer class labels to nuclei types (e.g., 1: Neoplastic, 2: Inflammatory). Modify this if using a custom-trained model with different classes.
 
 📝 References
-HoVer-Net: Graham, Simon, et al. "HoVer-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images." Medical Image Analysis (2019).
 
-StarDist: Schmidt, Uwe, et al. "Cell detection with star-convex polygons." MICCAI (2018).
+- HoVer-Net: Graham, Simon, et al. "HoVer-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images." Medical Image Analysis (2019).
+- StarDist: Schmidt, Uwe, et al. "Cell detection with star-convex polygons." MICCAI (2018).
