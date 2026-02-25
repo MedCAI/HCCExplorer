@@ -146,7 +146,7 @@ If you use HCCExplorer in your research, please cite:
 @article{cai2026hccexplorer,
   title={Transforming Histology into Virtual Multiplex Immunofluorescence to Decode Prognostic Spatial Immunity in Hepatocellular Carcinoma},
   author={Cai, Linghan and Jiang, Songhan and Liang, Junhao and Liu, Fengchun and Zhang, Buyi and Reitsam, Nic Gabriel and Zeng, Qinghe and Hu, Zheqi and Ma, Yanqing and Li, Ziqian and Shi, Feng and Hu, Maotong and Zhang, Xiuming and Zhang, Jing and Kather, Jakob Nikolas and Zhang, Yongbing and Liang, Wenjie},
-  journal={arXiv},
+  journal={BioRxiv},
   year={2026}
 }
 ```
